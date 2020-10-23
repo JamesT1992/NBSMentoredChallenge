@@ -1,14 +1,9 @@
 pipeline {
 	agent any
 	stages {
-		stage("Check and Install Docker with Ansible"){
+		stage("Check Dockers installed/Install Docker with Ansible"){
 			steps {
 				sh "./scripts/playbook.yaml"
-			}
-		}
-		stage("Load Nexus on port 8081 and Repo on 8082"){
-			steps {
-				sh "./scripts/installnexus.sh"
 			}
 		}
 		stage("Build images with docker-compose"){
@@ -18,7 +13,7 @@ pipeline {
 		}
 		stage("Push image to Nexus Repository 8082"){
 			steps{
-				sh "./scripts/run.sh"
+				sh "./scripts/push.sh"
 			}
 		}
 		stage("Run containers with recently build images"){

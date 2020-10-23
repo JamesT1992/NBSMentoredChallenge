@@ -1,10 +1,10 @@
 #! /bin/bash
 
-sudo docker push localhost:8082/nbsmentoredproject_service-1
+sudo docker push localhost:8082/service1
 
-sudo docker push localhost:8082/nbsmentoredproject_service-2
+sudo docker push localhost:8082/service2
 
-sudo docker push localhost:8082/nbsmentoredproject_service-3
+sudo docker push localhost:8082/service3
 
-sudo docker push localhost:8082/nbsmentoredproject_service-4
+sudo docker push localhost:8082/service4
 
