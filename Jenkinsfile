@@ -21,7 +21,7 @@ pipeline {
 				sh "./scripts/build.sh"
 			}
 		}
-		stage("Push image to Nexus Repository 8082"){
+		stage("Tag & Push image to Nexus Repository 8082"){
 			steps{
 				sh "./scripts/push.sh"
 			}

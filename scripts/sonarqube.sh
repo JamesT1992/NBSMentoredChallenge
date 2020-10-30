@@ -1,3 +1,7 @@
 #! /binbash
 
-sudo docker run -d -p 9000:9000 --name sonarqube --network nbsmentoredchallenge_default sonarqube
+sonar-scanner \
+  -Dsonar.projectKey=first-project \
+  -Dsonar.sources=. \
+  -Dsonar.host.url=http://sonarqube:9000 \
+  -Dsonar.login=13b6723b2827dbd4ef52210e3dbae2cefa10a1a7
