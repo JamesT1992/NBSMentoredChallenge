@@ -11,6 +11,11 @@ pipeline {
 				sh "./scripts/sonarqube.sh"
 			}
 		}
+		stage("Perform Unit Testing with pytest & pytest-cov"){
+			steps {
+				sh "./scripts/pytest.sh"
+			}
+		}
 		stage("Build images with docker-compose"){
 			steps{
 				sh "./scripts/build.sh"
