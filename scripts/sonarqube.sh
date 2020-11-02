@@ -1,4 +1,4 @@
-#! /binbash
+#! /bin/bash
 
 echo "sonar-scanner \
   -Dsonar.projectKey=first-project \
