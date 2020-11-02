@@ -6,11 +6,6 @@ pipeline {
 				sh "./scripts/playbook.sh"
 			}
 		}
-		stage("Perform SAST Testing with Sonarqube"){
-			steps {
-				sh "/home/student/NBSMentoredChallenge/scripts/sonarqube.sh"
-			}
-		}
 		stage("Perform Unit Testing with pytest & pytest-cov"){
 			steps {
 				sh "./scripts/pytest.sh"
