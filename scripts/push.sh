@@ -1,5 +1,7 @@
 #! /bin/bash
 
+sudo docker login -u admin -p admin localhost:8082
+
 sudo docker tag service1:latest localhost:8082/service1:latest
 sudo docker push localhost:8082/service1
 
