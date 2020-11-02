@@ -3,7 +3,7 @@ pipeline {
 	stages {
 		stage("Check Docker & Docker-Compose is installed / install with Ansible"){
 			steps {
-				sh. "./scripts/playbook.sh"
+				sh "./scripts/playbook.sh"
 			}
 		}
 		stage("Perform SAST Testing with Sonarqube"){
