@@ -8,7 +8,7 @@ pipeline {
 		}
 		stage("Perform SAST Testing with Sonarqube"){
 			steps {
-				sh "./home/student/NBSMentoredChallenge/scripts/sonarqube.sh"
+				sh "/home/student/NBSMentoredChallenge/scripts/sonarqube.sh"
 			}
 		}
 		stage("Perform Unit Testing with pytest & pytest-cov"){
