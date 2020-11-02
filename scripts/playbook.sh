@@ -1,4 +1,4 @@
 #! /bin/bash
 
-sudo cd /home/student/NBSMentoredChallenge/scripts/
-ansible-playbook playbook.yaml
+cd /home/student/NBSMentoredChallenge/scripts/
+sudo ansible-playbook playbook.yaml
