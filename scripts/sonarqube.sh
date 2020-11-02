@@ -4,5 +4,5 @@ sonar-scanner \
   -Dsonar.projectKey=first-project \
   -Dsonar.sources=. \
   -Dsonar.host.url=http://localhost:9000 \
-  -Dsonar.login=13b6723b2827dbd4ef52210e3dbae2cefa10a1a7"
+  -Dsonar.login=aa0e08500d505b5362ff994999cf892f19bf7ea0
 
