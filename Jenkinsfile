@@ -1,11 +1,6 @@
 pipeline {
 	agent any
 	stages {
-		stage("Check Docker & docker-compose is  installed/Install Docker with Ansible"){
-			steps {
-				sh "./scripts/playbook.yaml"
-			}
-		}
 		stage("Perform SAST Testing with Sonarqube"){
 			steps {
 				sh "./scripts/sonarqube.sh"

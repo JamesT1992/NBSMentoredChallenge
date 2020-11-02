@@ -18,10 +18,6 @@
 
   - name: "Install Docker-ce"
     apt: name=docker-ce state=latest
-
-  - name: Install Docker Module for Python
-    pip:
-      name: docker
     
   - name: "Install docker-compose"
     get_url:
@@ -34,8 +30,6 @@
       name: docker
       state: started
 
-  - name: "Install Docker Module for Python"
-    pip: 
-      name: docker
+
       
    
