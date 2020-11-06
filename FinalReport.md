@@ -19,3 +19,12 @@ The next stage on the pipeline was simply to run the images inside docker contai
 The final challenge was to automate the whole process using Jenkins I encountered some hurdles as I needed to allow Jenkins to execute commands to had to add it to the sudo user group. As well as this I needed to ensure that it didn't request Jenkins to input passwords for each command, some of these errors can be found on metric (JENKINSFAIL1 & JENKINSFAIL2). Further to this I also encountered an error to get Sonarqube.sh script to work properly this can be seen in (JENKINSFAIL3). I tried lots of trial and error to get it working, and eventually succumbed to removing that step and testing to see if the remainder of the process works, which it did, and can be see on metric (JenkinsSuccessNoTest1 & JenkinsSuccessNoTest2). 
 
 To attempt to overcome this final hurdle, I added some additional text to my Sonarqube.sh such as the "echo" function which after discussing with my peers and Ben, they suggested that maybe some additional functionality would have been required for it to work properly, but in its current state it allows for use by other people at time of submission if they set Sonarqube up successfully on their machine. This allowed me to seemingly fully automate the process with Jenkins as shsown in metrics (JenkinsFinished1 & JenkinsFinished2).
+
+
+# Feedback Questions
+
+# Why are we doing this?
+# How I expected the challenge to go.
+# What went well?
+# What didn't go as planned?
+# Possible improvements for future challenges.
