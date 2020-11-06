@@ -24,7 +24,28 @@ To attempt to overcome this final hurdle, I added some additional text to my Son
 # Feedback Questions
 
 # Why are we doing this?
+(Answered as if I were working in DevOps project)
+We are using containers for these apps as they are quick to put up and take down as well as being very lightweight and non-cumbersome on our machines. Being able to spin up applications in containers ensures that they can be self-sufficient in the sense that anyone can down the repository, install the requirements and the applications will work, there is not reliance on programs, software etc. on a host device for it to work.
+
+The reason we use automation is to reduce the amount of hours and resources needed to execute applications. These tools that products like Jenkins offer such as polling allows us to continually check for updates without having to take the whole application down continually to update. It helps build towards agile working in the devops space through continuous integration and continuous delivery.
+
+Testing such as SAST testing is carried out as a security measure to check the integrity of the code, outlining areas we can improve and potential areas of susceptability. This is key in ensuring a long standing piece of code that can stand up to modern security threats.
+
 # How I expected the challenge to go.
+(Answered as me)
+I expected the challenge to be tough, as I believe the idea was to encompass everything that we had learnt over the first four weeks and deliver a piece of work without the security of having continual teacher and peer support. 
+
 # What went well?
+(Answered as me)
+Some elements of the build went smoother than others, and some required some checking in with peers as well as revisiting the learning material. An example of this was with Sonarqube and the Jenkins pipeline. However, the areas that went well were the building, running and pushing of the applications. What went especially well, and what I really began to appreciate, was the practical functionality of using ansible and how it can be helpful in checking/installing programs. 
+
 # What didn't go as planned?
+(Answered as me)
+As above, the testing was particularly tough, from the Unit Testing using pytest through to the Sonarqube SAST testing. As stated in the report, I believe the difficulty with the SAST testing was trying to find a balance between delivering a submission that was fit for use by others, and actually managing to get the code to work, as there were some options that had to be configured manually in the application, and we did not have the knowledge to configure it via a script. The Unit Testing was less cumbersome in the sense I just had to revisit learning material to refamiliarize myself with the commands etc required to successfully build a virtual environment to carry out the testing.
+
 # Possible improvements for future challenges.
+(Answered as if I were working in a DevOps project)
+Possible improvements for future challenges would be to be able to push the understanding around application configuration through scripts, in the sense that Ben made me aware that although currently above our skill set there is a way to configure options for sonarqube and nexus etc via a script. This would allow the application to be wholly functional purely through the downloading of the repository.
+
+(Answered as me)
+I would definitely take more screen shots of the process as I went through. To begin with I spent a lot of time focused on getting everything to run, that when I did run into issues rather than take the time to screenshot and document them I just continued troubleshooting until I fixed the issue. In retrospect it would have been nice to see some of the issues I managed to overcome as I can now only really recall some of the larger ones that have been mentioned in this report.
