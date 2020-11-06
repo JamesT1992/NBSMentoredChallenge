@@ -1,6 +1,6 @@
 # Final Report
 
-Note - Any metrics and photos will be specified in (brackets)
+Note - Any metrics and photos will be specified in (brackets), as shown in the Metrics folder in this repository.
 
 I started off with my week 4 challenge ansible playbook.yaml, which could be used to check/install docker onto our virtual machines. I added additional functionality to this playbook by adding lines to also check/install docker-compose, in addition to just docker.
 
