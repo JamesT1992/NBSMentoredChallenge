@@ -45,7 +45,7 @@ As above, the testing was particularly tough, from the Unit Testing using pytest
 
 # Possible improvements for future challenges.
 (Answered as if I were working in a DevOps project)
-Possible improvements for future challenges would be to be able to push the understanding around application configuration through scripts, in the sense that Ben made me aware that although currently above our skill set there is a way to configure options for sonarqube and nexus etc via a script. This would allow the application to be wholly functional purely through the downloading of the repository.
+Possible improvements for future challenges would be to be able to push the understanding around application configuration through scripts, in the sense that Ben made me aware that although currently above our skill set there is a way to configure options for sonarqube and nexus etc via a script. This would allow the application to be wholly functional purely through the downloading of the repository, without any manual config.
 
 (Answered as me)
 I would definitely take more screen shots of the process as I went through. To begin with I spent a lot of time focused on getting everything to run, that when I did run into issues rather than take the time to screenshot and document them I just continued troubleshooting until I fixed the issue. In retrospect it would have been nice to see some of the issues I managed to overcome as I can now only really recall some of the larger ones that have been mentioned in this report.
